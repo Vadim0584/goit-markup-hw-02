@@ -1,12 +1,17 @@
 body {
   font-family: "roboto", sans-serif;
-  color: ;
 }
+ul {
+  list-style: none;
+}
+.text-nav {
+  text-decoration: none;
+}
+
 .header-logo {
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -17,99 +22,91 @@ body {
   color: #4d5ae5;
 }
 .header-altem {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .header-sait {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .header-tel {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .hero-text {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
 .hero-button {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #bb9494;
 }
+.hero {
+  background: #2e2f42;
+}
 .section-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .section-work {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 .section-team {
-  font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
 }
 .section-men {
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .section-mentext {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .foter-link {
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -120,10 +117,95 @@ body {
   color: #4d5ae5;
 }
 .foter-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+.body-main-p {
+  font-family: roboto;
+}
+.header-logo-p {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-logo-p span {
+  color: #4d5ae5;
+}
+
+.header-altem-p -p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-sait-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-tel-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.button-p {
+  background: #404bbf;
+}
+.hiro-but-p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+.sectionh2-p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer-logo--p {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-logo-p span {
+  color: #4d5ae5;
+}
+
+.footer-text-p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   color: #e7e9fc;
 }

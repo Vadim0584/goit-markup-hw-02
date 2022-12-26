@@ -1,7 +1,7 @@
-.body-main {
+.body-main-p {
   font-family: roboto;
 }
-.header-logo {
+.header-logo-p {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -12,11 +12,11 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
-.header-logo span {
+.header-logo-p span {
   color: #4d5ae5;
 }
 
-.header-altem {
+.header-altem-p -p {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -24,7 +24,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-sait {
+.header-sait-p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -32,7 +32,7 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-tel {
+.header-tel-p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -40,10 +40,10 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.button {
+.button-p {
   background: #404bbf;
 }
-.hiro-but {
+.hiro-but-p {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -54,7 +54,7 @@
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
-.sectionh2 {
+.sectionh2-p {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -62,7 +62,7 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-text {
+.section-text-p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -70,7 +70,7 @@
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer-logo {
+.footer-logo--p {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -81,11 +81,11 @@
   text-transform: uppercase;
   color: #f4f4fd;
 }
-.footer-logo span {
+.footer-logo-p span {
   color: #4d5ae5;
 }
 
-.footer-text {
+.footer-text-p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
