@@ -1,5 +1,5 @@
 body {
-  font-family: "roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 ul {
   list-style: none;
@@ -7,16 +7,34 @@ ul {
 .text-nav {
   text-decoration: none;
 }
+:root {
+  --Primary Brand:  #4D5AE5;
+  --Pressed state:  #404BBF;
+  --Dark: #2E2F42;
+  --Success: #31D0AA;
+  --Text: #FFFFFF;
+  --Subtle Text: #8E8F99;
+  --Accent: #E7E9FC;
+  --Light: #F4F4FD;
+  --Modal overlay: #2E2F42
+40 %;
+--Hero background: #2E2F42
+70 %;
+}
 
 .header-logo {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #2e2f42;
+ width: 71px;
+height: 24px;
+
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
 }
 .header-logo span {
   color: #4d5ae5;
@@ -35,12 +53,14 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.header-tel {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.text-nav {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .hero-text {
   font-weight: 700;
@@ -51,16 +71,31 @@ ul {
   color: #ffffff;
 }
 .hero-button {
+   background-color:  #404BBF;
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
-  color: #bb9494;
-}
+  cursor: pointer #4D5AE5;
+   }
 .hero {
   background: #2e2f42;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .section-text {
   font-weight: 400;
@@ -68,6 +103,14 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.paragraph {
+  font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .section-work {
   font-weight: 700;
@@ -77,6 +120,9 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.section-color {
+  background: #F4F4FD;
 }
 .section-team {
   font-weight: 700;
