@@ -86,6 +86,10 @@ body {
   color: #434455;
   text-decoration: none;
 }
+.kontact-link:hover {
+  color: #404bbf;
+}
+
 .hero {
   background: #2e2f42;
 }
