@@ -32,10 +32,7 @@ ul {
   width: 1440px;
 }
 
-.body-main {
-}
-
-.header-first {
+.body-main .header-first {
   display: flex;
   justify-content: first baseline;
   align-items: center;
@@ -51,7 +48,6 @@ ul {
   text-transform: uppercase;
   color: var(--Dark);
   text-decoration: none;
-  margin-right: 156px;
 }
 .header-logo span {
   color: #4d5ae5;
@@ -170,6 +166,7 @@ ul {
   gap: 24px;
   padding-left: 156px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -223,6 +220,8 @@ ul {
 
 .section-color {
   background: #f4f4fd;
+  width: 1440px;
+  padding-bottom: 120px;
 }
 .section-team {
   font-family: "Roboto";
@@ -260,7 +259,6 @@ ul {
 .style {
   background-color: #2e2f42;
   width: 1440px;
-  height: 310px;
 }
 .foter-link {
   font-family: "Raleway";
@@ -290,13 +288,19 @@ ul {
   max-width: 264px;
   padding: 0px 1020px 100px 156px;
 }
+
+.hiro {
+  display: flex;
+  gap: 24px;
+  padding-left: 427px;
+  margin-top: 68px;
+}
 .hiro-but-p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
@@ -304,11 +308,22 @@ ul {
   background: #e7e9fc;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  padding: 12px 24px;
 }
 
 .hiro-but-p:hover {
   background-color: #404bbf;
   color: #ffffff;
+}
+.visually {
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+.visually-photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding-left: 156px;
 }
 
 .sectionh2-p {
