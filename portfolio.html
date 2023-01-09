@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,12 +17,13 @@
   <body class="body">
     <div class="body-main">
       <header>
-        <div class="conteiner header-first">
-          <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
+        <main>
+          <div class="conteiner header-first">
+           <a class="header-logo" href="./index.html"><span>Web</span>Studio</a>
           <nav class="header-navigation">
             <ul class="header-list">
               <li class="header-altem">
-                <a class="nav-link" href="./index.html">Studio</a>
+                <a class="nav-link current" href="./index.html">Studio</a>
               </li>
               <li class="header-altem">
                 <a class="nav-link" href="./portfolio.html">Portfolio</a>
@@ -36,25 +38,26 @@
               <a class="kontact-link" href="">info@devstudio.com</a>
             </li>
             <li class="header-tel">
-              <a class="kontact-link" href="tel:+11(000)1111111"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="kontact-link-tel" href="tel:+11(000)1111111"
+                >+11 (000) 111-11-11</a>
             </li>
           </ul>
         </div>
-      </header>
-      <main>
+       </header>
         <section>
-          <ul class="hiro">
-            <li><button class="hiro-but-p">All</button></li>
-            <li><button class="hiro-but-p">Web Site</button></li>
-            <li><button class="hiro-but-p">App</button></li>
-            <li><button class="hiro-but-p">Design</button></li>
-            <li><button class="hiro-but-p">Marketing</button></li>
+          <div class="conteiner">
+            <ul class="hiro">
+              <li><button class="hiro-but-p">All</button></li>
+              <li><button class="hiro-but-p">Web Site</button></li>
+              <li><button class="hiro-but-p">App</button></li>
+              <li><button class="hiro-but-p">Design</button></li>
+              <li><button class="hiro-but-p">Marketing</button></li>
           </ul>
+          </div>
         </section>
         <section class="visually">
-          <h1 class="visually-hidden">ol photo</h1>
+          <div class="conteiner">
+            <h1 class="visually-hidden">ol photo</h1>
           <ul class="visually-photo">
             <li>
               <img
@@ -147,14 +150,18 @@
               <p class="section-text-p">Web Site</p>
             </li>
           </ul>
+          </div>
         </section>
       </main>
+     </header>
       <footer class="style">
-        <a class="foter-link" href="index.html"><span>Web</span>Studio</a>
+        <div class="conteiner">
+          <a class="foter-link" href="index.html"><span>Web</span>Studio</a>
         <p class="foter-text">
           WebStudio Increase the flow of customers and sales for your business
           with digital marketing & growth solutions.
         </p>
+        </div>
       </footer>
     </div>
   </body>

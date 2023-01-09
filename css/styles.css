@@ -20,19 +20,62 @@ ul {
   --secondary-font: Raleway, sans-serif;
 }
 
-.body {
+body {
   background-color: var(--whait-text-color);
-  color: var(--Text);
+  color: #2e2f42;
   font-family: var(--main-font);
   font-size: 16px;
   letter-spacing: 0.02em;
-}
-
-.body {
   width: 1440px;
 }
 
-.body-main .header-first {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  // color: inherit;
+}
+
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.conteiner {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header-first {
   display: flex;
   justify-content: first baseline;
   align-items: center;
@@ -52,16 +95,14 @@ ul {
 .header-logo span {
   color: #4d5ae5;
 }
-.conteiner {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
-  background-color: #ffffff;
+.header-first {
+  width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .header-navigation {
   display: flex;
-  margin-right: auto;
+  margin-left: 76px;
 }
 .header-list {
   display: flex;
@@ -76,14 +117,27 @@ ul {
   letter-spacing: 0.02em;
   color: var(--Dark);
   text-decoration: none;
+  padding: 24px 0;
+  display: block;
 }
+
+.current {
+  color: var(--Pressed-state);
+}
+
 .nav-link:hover {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .header-contact {
   display: flex;
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header-sait {
@@ -100,6 +154,10 @@ ul {
   margin-right: 40px;
 }
 
+.kontact-link:hover {
+  color: #404bbf;
+}
+
 .header-tel {
   font-family: "Roboto";
   font-style: normal;
@@ -110,9 +168,6 @@ ul {
   color: #434455;
 }
 
-.kontact-link:hover {
-  text-decoration: underline;
-}
 .kontact-link-tel {
   font-family: "Roboto";
   font-weight: 400;
@@ -125,12 +180,11 @@ ul {
 
 .kontact-link-tel:hover {
   color: #404bbf;
-  text-decoration: underline;
 }
 
 .hero {
+  height: 600px;
   background: #2e2f42;
-  padding: 168px 473px 292px 473px;
 }
 .hero-text {
   font-family: "Roboto";
@@ -142,6 +196,9 @@ ul {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 494px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 116px;
 }
 
 .hero-button {
@@ -151,33 +208,18 @@ ul {
   font-size: 16px;
   line-height: 1.18;
   display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   cursor: pointer;
   color: #ffffff;
   padding: 16px 32px;
   border-radius: 4px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 636px;
+  margin-top: 48px;
 }
 
 .visually-text {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .section-text {
@@ -211,16 +253,16 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 120px;
 }
 .section-photo {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
+  margin-top: 72px;
 }
 
 .section-color {
   background: #f4f4fd;
-  width: 1440px;
   padding-bottom: 120px;
 }
 .section-team {
@@ -232,11 +274,12 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-top: 120px;
 }
 .section-team-photo {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
+  margin-top: 72px;
 }
 .section-men {
   font-family: "Roboto";
@@ -246,6 +289,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .section-mentext {
   font-family: "Roboto";
@@ -255,24 +299,85 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 8px;
 }
+
+.hiro {
+  display: flex;
+  gap: 24px;
+  margin-top: 96px;
+  margin-left: 300px;
+}
+.hiro-but-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #e7e9fc;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  padding: 12px 24px;
+  text-align: center;
+}
+
+.hiro-but-p:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.visually-hidden {
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin-top: 72px;
+}
+
+.visually-photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
+.sectionh2-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-top: 32px;
+}
+.section-text-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-top: 8px;
+}
+
 .style {
   background-color: #2e2f42;
-  width: 1440px;
 }
 .foter-link {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  display: flex;
-  align-items: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
   text-decoration: none;
-  padding: 100px 1240px 16px 156px;
+  padding-top: 100px;
+  display: flex;
 }
 .foter-link span {
   color: #4d5ae5;
@@ -286,61 +391,5 @@ ul {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   max-width: 264px;
-  padding: 0px 1020px 100px 156px;
-}
-
-.hiro {
-  display: flex;
-  gap: 24px;
-  padding-left: 427px;
-  margin-top: 68px;
-}
-.hiro-but-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background: #e7e9fc;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  padding: 12px 24px;
-}
-
-.hiro-but-p:hover {
-  background-color: #404bbf;
-  color: #ffffff;
-}
-.visually {
-  padding-top: 72px;
-  padding-bottom: 120px;
-}
-.visually-photo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  padding-left: 156px;
-}
-
-.sectionh2-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section-text-p {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+  margin-top: 16px;
 }
