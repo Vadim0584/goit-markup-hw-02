@@ -53,7 +53,7 @@ button {
 }
 
 ul,
-ol {
+li {
   list-style: none;
   padding-left: 0px;
   margin: 0px;
@@ -142,7 +142,8 @@ ul {
   padding: 0;
 }
 
-.header-sait {
+.kontact-link {
+  margin-right: 40px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -152,12 +153,8 @@ ul {
   color: #434455;
 }
 
-.kontact-link {
-  margin-right: 40px;
-}
-
 .kontact-link:hover {
-  color: #404bbf;
+  color: #404BBF;
 }
 
 .header-tel {
@@ -223,6 +220,14 @@ ul {
 background-color: #404BBF;
 }
 
+.section {
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
+
+
+
 .visually-text {
   display: flex;
   gap: 24px;
@@ -236,8 +241,8 @@ background-color: #404BBF;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin: 8px;
-  padding-top: 120px;
+  margin-bottom: 8px;
+  
 }
 
 .paragraph {
@@ -261,7 +266,7 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
- padding-top:  120px;
+
 }
 .section-photo {
   display: flex;
@@ -271,7 +276,7 @@ background-color: #404BBF;
 
 .section-color {
   background: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
  
 }
 .section-team {
@@ -283,6 +288,7 @@ background-color: #404BBF;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  
   
 }
 .section-team-photo {
@@ -301,8 +307,8 @@ background-color: #404BBF;
   margin-top: 32px;
 }
 
-div {
-  padding: 30px;
+.section-c {
+  padding: 32px 0;
 }
 .section-img {
   background: #FFFFFF;
@@ -365,9 +371,13 @@ border-radius: 0px 0px 4px 4px
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
- padding-top: 72px;
+ padding-top: 48px;
+ padding-bottom: 120px;
 }
 
+.visually-photo-l{
+  padding-top: 24px;
+}
 .sectionh2-p {
   font-family: "Roboto";
   font-style: normal;
@@ -391,7 +401,7 @@ border-radius: 0px 0px 4px 4px
 
 footer {
   background-color: #2e2f42;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 .foter-link {
   font-family: "Raleway";
@@ -403,7 +413,6 @@ footer {
   text-transform: uppercase;
   color: #f4f4fd;
   text-decoration: none;
-  padding-top: 100px;
   display: flex;
 }
 .foter-link span {
@@ -417,6 +426,6 @@ footer {
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  max-width: 358px;
+  max-width: 264px;
   margin-top: 16px;
 }
